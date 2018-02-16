@@ -11,7 +11,7 @@
 .absDiv{
   position: absolute;
   z-index: 0;
-  height: 100vw;
+  height: 75vw;
   width: 100%;
 }
 
@@ -21,7 +21,7 @@
   background-color: #ffb200;
   overflow-y: hidden;
   text-align: center;
-  height: 90vw;
+  height: 70vw;
   /* padding-top: 16%; */
   -webkit-box-shadow: 1px 2px 28px 4px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 2px 28px 4px rgba(0,0,0,0.75);
