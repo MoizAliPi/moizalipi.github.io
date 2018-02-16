@@ -10,7 +10,7 @@
 
 .absDiv{
   position: absolute;
-  z-index: 0;
+  z-index: 1;
   height: 75vw;
   width: 100%;
 }
@@ -26,6 +26,7 @@
   -webkit-box-shadow: 1px 2px 28px 4px rgba(0,0,0,0.75);
   -moz-box-shadow: 1px 2px 28px 4px rgba(0,0,0,0.75);
   box-shadow: 1px 2px 14px 0px rgba(0,0,0,0.75);
+  position: relative;
 }
 
 .movingOne{
@@ -49,6 +50,7 @@
   font-weight: 900;
   /* background-color: #FFB200; */
   color: #000000;
+  padding-top: 8em;
 }
 
 .aboutMe{
@@ -80,6 +82,10 @@
   font-size: 1.25vw;
   text-align: left;
   font-family: 'Poppins', 'FontAwesome', sans-serif;
+  position: absolute;
+  z-index: 2;
+  width:  95vw;
+  cursor: pointer;
 }
 
 .loc{
